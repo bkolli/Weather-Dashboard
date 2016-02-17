@@ -1,0 +1,32 @@
+<!doctype html>
+<html lang="en" ng-app="app">
+    <head>
+        <title>Weather Dashboard</title>
+        <link href="content/css/bootstrap.min.css" rel="stylesheet" />
+        <link href="content/css/bootstrap-theme.min.css" rel="stylesheet" />
+        <link href="content/css/custom.css" rel="stylesheet" />
+        <script src="vendor/jquery.min.js"></script>
+        <script src="vendor/bootstrap.min.js"></script>
+        <script src="vendor/angular.js"></script>
+        <script src="vendor/angular-route.js"></script>
+        <script src="vendor/highcharts.js"></script>
+
+        <script src="app/app.module.js"></script>
+        <script src="app/layout/shell.module.js"></script>
+        <script src="app/layout/shell.ctrl.js"></script>
+        <script src="app/search/search.module.js"></script>
+        <script src="app/search/search.ctrl.js"></script>
+        <script src="app/weather/weather.module.js"></script>
+        <script src="app/weather/weather.ctrl.js"></script>
+        <script src="app/forecast/forecast.module.js"></script>
+        <script src="app/forecast/forecast.ctrl.js"></script>
+        <script src="app/component/component.module.js"></script>
+        <script src="app/component/search.view.js"></script>
+        <script src="app/data/data.module.js"></script>
+        <script src="app/data/weather.svc.js"></script>
+        <script src="app/forecast/forecast.view.js"></script>
+    </head>
+    <body>
+        <ng-include src="'app/layout/shell.html'"></ng-include>
+    </body>
+</html>
